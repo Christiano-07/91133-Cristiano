@@ -1,0 +1,41 @@
+/* Seletores CSS */
+
+h1{
+
+    /* Ccentralizar os elementos */
+    text-align: center;
+    /* Cor do texto */
+    color: brown;
+    /* Colacar em negrito */
+    font-weight: bold;
+}
+
+table{
+
+    /* Largura da tabela */
+    width: 100%;
+    /* Colocar uma borda */
+    border: 1px solid;
+    /* Margem */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+    td{
+         /* Ccentralizar os elementos */
+         text-align: center;
+    }
+
+    thead{
+
+        background-color: aqua;
+    }
+
+    h1{
+
+         /* Ccentralizar os elementos */
+         text-align: center;
+         
+    }
+    
+   
