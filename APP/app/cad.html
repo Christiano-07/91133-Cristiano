@@ -2,12 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque 1.0 - SENAI FSA</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-    <h1>Controle  de Estoque 1.0 - SENAI FSA</h1>
+    <h1>Controle de Estoque 1.0 - SENAI FSA</h1>
 
     <form method="post" action="api/api.php" onsubmit="return validarFormulario()">
         <label for="produto">Produto:</label>
@@ -26,15 +25,12 @@
         <input type="number" id="quantidade" name="quantidade" min="1">
 
         <button type="submit">Cadastrar</button>
-
     </form>
-
-    <div>
-        <button class="btn"><a href="http://localhost/app/view/listar.php">Listar produtos</a></button>
-        <br> <button class="btn"><a href="http://localhost/app/">Voltar</a></button>
-    </div>
-
+        <div >
+            <button class="btn" ><a href="http://localhost/app/view/listar.php">Listar produtos</a></button><br>
+           <br> <button class="btn" ><a href="http://localhost/app/">Voltar</a></button>
+        </div>
+       
     <script src="script.js"></script>
-
 </body>
 </html>
